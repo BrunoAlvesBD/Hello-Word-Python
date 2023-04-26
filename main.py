@@ -17,8 +17,13 @@
 
 #print(volume);
 #-----------------26/04---------------------
-from operators.operators import add
-print('hello word')
+#from operators.operators import add
 #print(add(1, 2))
 
-print(add(1, 3.2))
+import operators.operators as op
+
+#print(operators.add(1, 3.2))
+
+#print(operators.subtraction(3, 5))
+
+print(op.division(6, 3))
